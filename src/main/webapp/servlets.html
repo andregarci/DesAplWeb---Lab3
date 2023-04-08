@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Servlets</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="webjars/bootstrap/5.1.0/css/bootstrap.min.css" type="text/css" />
+    </head>
+    <body>
+        <main>
+            <div class="album py-5 bg-light">
+              <div class="container">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                      <div class="col">
+                          <div class="card shadow-sm">
+                              <img src="https://es-static.z-dn.net/files/dcf/f69cc631870ccf795a83eb90dc2ce98c.png" class="bd-placeholder-img card-img-top" width="100%" height="225"/>
+                              <div class="card-body">
+                                  <p class="card-text">Numeros Pares <br> Ingrese cuantos numeros pares quiere que se muestren</p>
+                                  <form name="form" action="/WebApp03Tarea/numerosPares" method="post">
+                                      <input type="number" name="par" class="form-control" /><br>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                      <div class="btn-group">
+                                          <button type="submit" class="btn btn-sm btn-outline-secondary">Enviar</button>
+                                       </div>
+                                    </div>
+                                  </form>
+                                  </div>
+                              </div>
+                        </div>
+                      <div class="col">
+                          <div class="card shadow-sm">
+                              <img src="https://th.bing.com/th/id/OIP.DlD1o34uquAC7aTCcO3lvwHaHZ?pid=ImgDet&rs=1" class="bd-placeholder-img card-img-top" width="100%" height="225"/>
+                              <div class="card-body">
+                                  <p class="card-text">Numeros Primos <br> Ingrese cuantos numeros primos quiere que se muestren</p>
+                                  <form name="form" action="/WebApp03Tarea/numerosPrimos" method="post">
+                                      <input type="number" name="primo" class="form-control" /><br>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                      <div class="btn-group">
+                                          <button type="submit" class="btn btn-sm btn-outline-secondary">Enviar</button>
+                                       </div>
+                                    </div>
+                                  </form>
+                                  </div>
+                              </div>
+                        </div>
+                      <div class="col">
+                          <div class="card shadow-sm">
+                              <img src="https://th.bing.com/th/id/OIP.Rud5ye8mEzTH0e5RifDsQwHaE9?pid=ImgDet&rs=1" class="bd-placeholder-img card-img-top" width="100%" height="225"/>
+                              <div class="card-body">
+                                  <p class="card-text">Tablas de multiplicar <br> Ingrese cuantas tablas quiere que se muestren</p>
+                                  <form name="form" action="/WebApp03Tarea/tablasMultiplicar" method="post">
+                                      <input type="number" name="tablas" class="form-control" /><br>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                      <div class="btn-group">
+                                          <button type="submit" class="btn btn-sm btn-outline-secondary">Enviar</button>
+                                       </div>
+                                    </div>
+                                  </form>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </main>
+    </body>
+</html>
